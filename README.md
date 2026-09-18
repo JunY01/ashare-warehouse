@@ -44,7 +44,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/<你的ID>/ashare-warehouse.git && cd ashare-warehouse
+git clone https://github.com/JunY01/ashare-warehouse.git && cd ashare-warehouse
 
 # 1) 建库（25 张表，自带样例数据）
 cp data/market_history.sample.db data/market_history.db
