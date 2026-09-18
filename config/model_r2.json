@@ -1,0 +1,31 @@
+{
+ "_note": "R2动量中线模型本地参数版本。千次网格+10年复核晋升。",
+ "version": "v3.0904",
+ "date": "2026-09-04",
+ "window": 80,
+ "topn": 2,
+ "stop": -6.0,
+ "buffer": 0.2,
+ "min_cap_yi": 50.0,
+ "params": {
+  "window": 80,
+  "topn": 2,
+  "stop": -6.0,
+  "buffer": 0.2
+ },
+ "metrics": {
+  "sector_proxy": {
+   "total": 1.414,
+   "avgm": 0.1342,
+   "maxdd": -0.026,
+   "win": 0.857,
+   "turn": 0.143,
+   "n": 7
+  },
+  "index10y": {
+   "total": 2.534,
+   "cagr": 0.135,
+   "maxdd": -0.148
+  }
+ }
+}

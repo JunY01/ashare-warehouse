@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>投资看板</title>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Microsoft YaHei",sans-serif;background:#f4f6f9;color:#2d3436;padding:16px}
+h1{font-size:22px;margin-bottom:4px}
+.sub{color:#7f8c8d;font-size:12px;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:14px}
+.card{background:#fff;border-radius:10px;padding:14px 16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.card h2{font-size:15px;margin-bottom:10px;border-left:4px solid #2d6cdf;padding-left:8px}
+.trig-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-bottom:14px}
+.trig{border-top:3px solid #b2bec3}
+.trig.hot{border-top-color:#d63031;background:#fff5f5}
+.trig-title{font-size:12px;color:#7f8c8d}
+.trig-value{font-size:22px;font-weight:bold;margin:4px 0}
+.trig-detail{font-size:12px;color:#636e72}
+.badge{color:#fff;border-radius:10px;padding:2px 8px;font-size:11px;white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{background:#eef2f7;text-align:left;padding:5px 8px;font-weight:normal;color:#57606f}
+td{padding:5px 8px;border-bottom:1px solid #f1f2f6}
+.up{color:#d63031}.dn{color:#1a9c6b}
+.bar{height:6px;background:#eef2f7;border-radius:3px;margin-top:2px;width:90px}
+.bar i{display:block;height:6px;border-radius:3px;background:#2d6cdf}
+.warn{background:#fff0f0;color:#c0392b;padding:6px 10px;border-radius:6px;font-size:13px;margin-bottom:8px}
+.ok{background:#f0faf4;color:#1a9c6b;padding:6px 10px;border-radius:6px;font-size:13px;margin-bottom:8px}
+.sum{font-size:13px;color:#57606f;margin-bottom:8px}
+.progress{position:relative;height:18px;background:#eef2f7;border-radius:9px;margin:6px 0 10px}
+.progress i{display:block;height:18px;border-radius:9px;background:linear-gradient(90deg,#2d6cdf,#1a9c6b)}
+.progress span{position:absolute;left:12px;top:2px;font-size:11px;color:#fff;font-weight:bold}
+#flowChart{width:100%;height:360px}
+.foot{margin-top:14px;font-size:11px;color:#b2bec3;text-align:center}
+</style></head><body>
+<h1>📊 投资看板</h1>
+<div class="sub">生成时间 __GEN_TIME__ ｜ 市场温度：__UP__ 涨 / __DOWN__ 跌（板块快照 __MKT_DATE__）｜ 数据仅供参考，不构成投资建议</div>
+
+<div class="trig-grid">{{TRIGGERS}}</div>
+
+<div class="grid">
+  <div class="card"><h2>🎯 指数估值仪表盘</h2>{{VAL_TABLE}}</div>
+  <div class="card"><h2>💰 资金A · 存量持仓</h2>{{POS_A}}</div>
+  <div class="card"><h2>🗓️ 资金B · 6万计划</h2>{{POS_B}}</div>
+  <div class="card"><h2>💸 今日主力资金流 TOP10</h2><div id="flowChart">（图表需联网加载，数值见下表）<table id="flowTable"></table></div></div>
+  <div class="card"><h2>🧲 连续吸筹榜</h2>{{ACC_HTML}}</div>
+  <div class="card"><h2>🧭 主力吸筹/出逃强度</h2>{{FLOW_RATIO}}</div>
+  <div class="card"><h2>🌍 外围市场 <small style="color:#b2bec3">@__GLOBAL_STAMP__</small></h2>
+    <table><tr><th>指数</th><th>最新</th><th>涨跌</th></tr>{{GLOBAL_ROWS}}</table></div>
+</div>
+<div class="foot">数据源：market_history.db（含 global_daily） ｜ index_valuation.json ｜ positions.json —— 由 generate_dashboard.py 自动生成</div>
+
+<script>
+var IN = __FLOW_IN__, OUT = __FLOW_OUT__;
+// 表格兜底（断网时仍可读）
+(function(){var h='<table><tr><th colspan="2" style="color:#d63031">净流入 TOP10（亿）</th></tr>';
+IN.forEach(function(r){h+='<tr><td>'+r.name+'</td><td style="text-align:right">'+r.inflow+'</td></tr>';});
+h+='<tr><th colspan="2" style="color:#1a9c6b">净流出 TOP10（亿）</th></tr>';
+OUT.forEach(function(r){h+='<tr><td>'+r.name+'</td><td style="text-align:right">'+r.inflow+'</td></tr>';});
+document.getElementById('flowTable').innerHTML=h;})();
+if (typeof echarts !== 'undefined') {
+  var c = echarts.init(document.getElementById('flowChart'));
+  var names = OUT.map(function(r){return r.name}).concat(IN.map(function(r){return r.name}));
+  var vals = OUT.map(function(r){return r.inflow}).concat(IN.map(function(r){return r.inflow}));
+  c.setOption({title:{text:'主力净流入（亿元）',left:'center',textStyle:{fontSize:13}},
+    grid:{left:90,right:40,top:30,bottom:20},
+    xAxis:{type:'value'},
+    yAxis:{type:'category',data:names},
+    series:[{type:'bar',data:vals.map(function(v){return {value:v,itemStyle:{color:v>=0?'#d63031':'#1a9c6b'}}}),
+      label:{show:true,position:'right',fontSize:10}}]});
+  window.addEventListener('resize',function(){c.resize()});
+}
+</script>
+</body></html>

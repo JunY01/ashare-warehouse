@@ -1,0 +1,19 @@
+{
+ "_note": "短线三挡模型。牛长熊短：挡位由10万网格分regime选拔+留存终验+邻域稳定晋升。",
+ "version": "s1.0904",
+ "date": "2026-09-04",
+ "gears": {
+  "bull": {
+   "hold": 30,
+   "tp": 15.0,
+   "sl": -3.0,
+   "mom_peak": 4.0,
+   "cutoff": 50.0,
+   "topn": 3,
+   "gate": null,
+   "caps": "base",
+   "valid_exc": 3.483,
+   "holdout_exc": 1.278
+  }
+ }
+}

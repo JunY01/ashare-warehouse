@@ -1,0 +1,1339 @@
+{
+ "_meta": {
+  "source": "mommy-chaogu-main/data/supply_chains",
+  "generated": "2026-08-25",
+  "note": "fundamental_codes=每日抓东财基本面的龙头子集；member_bks=板块成分股白名单，均可手工增删"
+ },
+ "stocks": [
+  {
+   "code": "301095",
+   "name": "广立微",
+   "chain": "半导体",
+   "subcategory": "EDA"
+  },
+  {
+   "code": "301269",
+   "name": "华大九天",
+   "chain": "半导体",
+   "subcategory": "EDA"
+  },
+  {
+   "code": "688206",
+   "name": "概伦电子",
+   "chain": "半导体",
+   "subcategory": "EDA"
+  },
+  {
+   "code": "688521",
+   "name": "芯原股份",
+   "chain": "半导体",
+   "subcategory": "IP"
+  },
+  {
+   "code": "002129",
+   "name": "TCL中环",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "002409",
+   "name": "雅克科技",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "002549",
+   "name": "凯美特气",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300054",
+   "name": "鼎龙股份",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300346",
+   "name": "南大光电",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300398",
+   "name": "飞凯材料",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300576",
+   "name": "容大感光",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300655",
+   "name": "晶瑞电材",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300666",
+   "name": "江丰电子",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "300706",
+   "name": "阿石创",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "600206",
+   "name": "有研新材",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "603078",
+   "name": "江化微",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "603650",
+   "name": "彤程新材",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "605358",
+   "name": "立昂微",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "688019",
+   "name": "安集科技",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "688106",
+   "name": "金宏气体",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "688126",
+   "name": "沪硅产业",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "688268",
+   "name": "华特气体",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "688399",
+   "name": "神工股份",
+   "chain": "半导体",
+   "subcategory": "材料"
+  },
+  {
+   "code": "002371",
+   "name": "北方华创",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "300567",
+   "name": "精测电子",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "300604",
+   "name": "长川科技",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "301369",
+   "name": "联动科技",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "600641",
+   "name": "万业企业",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688012",
+   "name": "中微公司",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688037",
+   "name": "芯源微",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688072",
+   "name": "拓荆科技",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688082",
+   "name": "盛美上海",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688120",
+   "name": "华海清科",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688200",
+   "name": "华峰测控",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688361",
+   "name": "中科飞测",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688409",
+   "name": "富创精密",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "688652",
+   "name": "京仪装备",
+   "chain": "半导体",
+   "subcategory": "设备"
+  },
+  {
+   "code": "000021",
+   "name": "深科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "002156",
+   "name": "通富微电",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "002185",
+   "name": "华天科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "600584",
+   "name": "长电科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "603005",
+   "name": "晶方科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "688135",
+   "name": "利扬芯片",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "688352",
+   "name": "颀中科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "688362",
+   "name": "甬矽电子",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "688372",
+   "name": "伟测科技",
+   "chain": "半导体",
+   "subcategory": "封测"
+  },
+  {
+   "code": "002049",
+   "name": "紫光国微",
+   "chain": "半导体",
+   "subcategory": "FPGA"
+  },
+  {
+   "code": "688107",
+   "name": "安路科技",
+   "chain": "半导体",
+   "subcategory": "FPGA"
+  },
+  {
+   "code": "688385",
+   "name": "复旦微电",
+   "chain": "半导体",
+   "subcategory": "FPGA"
+  },
+  {
+   "code": "300077",
+   "name": "国民技术",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "300327",
+   "name": "中颖电子",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "603068",
+   "name": "博通集成",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "688018",
+   "name": "乐鑫科技",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "688595",
+   "name": "芯海科技",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "688608",
+   "name": "恒玄科技",
+   "chain": "半导体",
+   "subcategory": "MCU"
+  },
+  {
+   "code": "002241",
+   "name": "歌尔股份",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "300007",
+   "name": "汉威科技",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "603160",
+   "name": "汇顶科技",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "603501",
+   "name": "韦尔股份",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "688213",
+   "name": "思特威",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "688286",
+   "name": "敏芯股份",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "688322",
+   "name": "奥比中光",
+   "chain": "半导体",
+   "subcategory": "传感器"
+  },
+  {
+   "code": "600460",
+   "name": "士兰微",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "600745",
+   "name": "闻泰科技",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "688172",
+   "name": "燕东微",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "688249",
+   "name": "合肥晶合",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "688347",
+   "name": "华虹公司",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "688396",
+   "name": "华润微",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "688981",
+   "name": "中芯国际",
+   "chain": "半导体",
+   "subcategory": "制造"
+  },
+  {
+   "code": "300373",
+   "name": "扬杰科技",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "300623",
+   "name": "捷捷微电",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "603290",
+   "name": "斯达半导",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "605111",
+   "name": "新洁能",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "688187",
+   "name": "时代电气",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "688261",
+   "name": "东微半导",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "688689",
+   "name": "银河微电",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "688711",
+   "name": "宏微科技",
+   "chain": "半导体",
+   "subcategory": "功率"
+  },
+  {
+   "code": "300474",
+   "name": "景嘉微",
+   "chain": "半导体",
+   "subcategory": "处理器"
+  },
+  {
+   "code": "688041",
+   "name": "海光信息",
+   "chain": "半导体",
+   "subcategory": "处理器"
+  },
+  {
+   "code": "688047",
+   "name": "龙芯中科",
+   "chain": "半导体",
+   "subcategory": "处理器"
+  },
+  {
+   "code": "688256",
+   "name": "寒武纪",
+   "chain": "半导体",
+   "subcategory": "处理器"
+  },
+  {
+   "code": "300223",
+   "name": "北京君正",
+   "chain": "半导体",
+   "subcategory": "存储"
+  },
+  {
+   "code": "603986",
+   "name": "兆易创新",
+   "chain": "半导体",
+   "subcategory": "存储"
+  },
+  {
+   "code": "688008",
+   "name": "澜起科技",
+   "chain": "半导体",
+   "subcategory": "存储"
+  },
+  {
+   "code": "688123",
+   "name": "聚辰股份",
+   "chain": "半导体",
+   "subcategory": "存储"
+  },
+  {
+   "code": "002881",
+   "name": "美格智能",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "300638",
+   "name": "广和通",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "300782",
+   "name": "卓胜微",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "301165",
+   "name": "锐捷网络",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "603236",
+   "name": "移远通信",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "688153",
+   "name": "唯捷创芯",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "688220",
+   "name": "翱捷科技",
+   "chain": "半导体",
+   "subcategory": "射频"
+  },
+  {
+   "code": "300661",
+   "name": "圣邦股份",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "600171",
+   "name": "上海贝岭",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688052",
+   "name": "纳芯微",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688173",
+   "name": "希荻微",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688381",
+   "name": "帝奥微",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688508",
+   "name": "芯朋微",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688536",
+   "name": "思瑞浦",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688601",
+   "name": "力芯微",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "688798",
+   "name": "艾为电子",
+   "chain": "半导体",
+   "subcategory": "模拟"
+  },
+  {
+   "code": "000062",
+   "name": "深圳华强",
+   "chain": "半导体",
+   "subcategory": "分销"
+  },
+  {
+   "code": "001298",
+   "name": "好上好",
+   "chain": "半导体",
+   "subcategory": "分销"
+  },
+  {
+   "code": "300184",
+   "name": "力源信息",
+   "chain": "半导体",
+   "subcategory": "分销"
+  },
+  {
+   "code": "300997",
+   "name": "商络电子",
+   "chain": "半导体",
+   "subcategory": "分销"
+  },
+  {
+   "code": "301099",
+   "name": "雅创电子",
+   "chain": "半导体",
+   "subcategory": "分销"
+  },
+  {
+   "code": "603259",
+   "name": "药明康德",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "300759",
+   "name": "康龙化成",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "300347",
+   "name": "泰格医药",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "002821",
+   "name": "凯莱英",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "300363",
+   "name": "博腾股份",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "603456",
+   "name": "九洲药业",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "300725",
+   "name": "药石科技",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "603127",
+   "name": "昭衍新药",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "688202",
+   "name": "美迪西",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "688621",
+   "name": "阳光诺和",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "688131",
+   "name": "皓元医药",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "688073",
+   "name": "毕得医药",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "300404",
+   "name": "博济医药",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "688238",
+   "name": "和元生物",
+   "chain": "创新药",
+   "subcategory": "CXO"
+  },
+  {
+   "code": "600276",
+   "name": "恒瑞医药",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688428",
+   "name": "诺诚健华",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "300558",
+   "name": "贝达药业",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688192",
+   "name": "迪哲医药-U",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688266",
+   "name": "泽璟制药-U",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688578",
+   "name": "艾力斯",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688197",
+   "name": "首药控股-U",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688302",
+   "name": "海创药业-U",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688356",
+   "name": "键凯科技",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688382",
+   "name": "益方生物-U",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688321",
+   "name": "微芯生物",
+   "chain": "创新药",
+   "subcategory": "化药创新"
+  },
+  {
+   "code": "688235",
+   "name": "百济神州",
+   "chain": "创新药",
+   "subcategory": "生物药"
+  },
+  {
+   "code": "688180",
+   "name": "君实生物-U",
+   "chain": "创新药",
+   "subcategory": "生物药"
+  },
+  {
+   "code": "688520",
+   "name": "神州细胞",
+   "chain": "创新药",
+   "subcategory": "生物药"
+  },
+  {
+   "code": "688062",
+   "name": "迈威生物-U",
+   "chain": "创新药",
+   "subcategory": "生物药"
+  },
+  {
+   "code": "600196",
+   "name": "复星医药",
+   "chain": "创新药",
+   "subcategory": "综合制药"
+  },
+  {
+   "code": "600557",
+   "name": "康缘药业",
+   "chain": "创新药",
+   "subcategory": "中药创新"
+  },
+  {
+   "code": "002603",
+   "name": "以岭药业",
+   "chain": "创新药",
+   "subcategory": "中药创新"
+  },
+  {
+   "code": "600535",
+   "name": "天士力",
+   "chain": "创新药",
+   "subcategory": "中药创新"
+  },
+  {
+   "code": "601607",
+   "name": "上海医药",
+   "chain": "创新药",
+   "subcategory": "医药商业"
+  },
+  {
+   "code": "600511",
+   "name": "国药股份",
+   "chain": "创新药",
+   "subcategory": "医药商业"
+  },
+  {
+   "code": "603368",
+   "name": "柳药集团",
+   "chain": "创新药",
+   "subcategory": "医药商业"
+  },
+  {
+   "code": "300015",
+   "name": "爱尔眼科",
+   "chain": "创新药",
+   "subcategory": "医疗服务"
+  },
+  {
+   "code": "600763",
+   "name": "通策医疗",
+   "chain": "创新药",
+   "subcategory": "医疗服务"
+  },
+  {
+   "code": "002747",
+   "name": "埃斯顿",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "003021",
+   "name": "兆威机电",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300403",
+   "name": "汉宇集团",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603662",
+   "name": "柯力传感",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002048",
+   "name": "宁波华翔",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603667",
+   "name": "五洲新春",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603728",
+   "name": "鸣志电器",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002527",
+   "name": "新时达",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603009",
+   "name": "北特科技",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002979",
+   "name": "雷赛智能",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002472",
+   "name": "双环传动",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300124",
+   "name": "汇川技术",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300580",
+   "name": "贝斯特",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300660",
+   "name": "江苏雷利",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603489",
+   "name": "八方股份",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "688017",
+   "name": "绿的谐波",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "601689",
+   "name": "拓普集团",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002050",
+   "name": "三花智控",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300083",
+   "name": "创世纪",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "603305",
+   "name": "旭升集团",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002896",
+   "name": "中大力德",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300432",
+   "name": "富临精工",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "300024",
+   "name": "机器人",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "002126",
+   "name": "银轮股份",
+   "chain": "人形机器人",
+   "subcategory": ""
+  },
+  {
+   "code": "601600",
+   "name": "中国铝业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000807",
+   "name": "云铝股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601899",
+   "name": "紫金矿业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600141",
+   "name": "兴发集团",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600309",
+   "name": "万华化学",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600938",
+   "name": "中国海油",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600362",
+   "name": "江西铜业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "002460",
+   "name": "赣锋锂业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600547",
+   "name": "山东黄金",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000630",
+   "name": "铜陵有色",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601088",
+   "name": "中国神华",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600010",
+   "name": "包钢股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "002340",
+   "name": "格林美",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000831",
+   "name": "中国稀土",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601958",
+   "name": "金钼股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600259",
+   "name": "广晟有色",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600111",
+   "name": "北方稀土",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000932",
+   "name": "华菱钢铁",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000792",
+   "name": "盐湖股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600096",
+   "name": "云天化",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "002466",
+   "name": "天齐锂业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600660",
+   "name": "福耀玻璃",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601857",
+   "name": "中国石油",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600019",
+   "name": "宝钢股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "002493",
+   "name": "荣盛石化",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600346",
+   "name": "恒力石化",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601865",
+   "name": "福莱特",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600585",
+   "name": "海螺水泥",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600782",
+   "name": "新钢股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600507",
+   "name": "方大特钢",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000422",
+   "name": "湖北宜化",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601069",
+   "name": "西部黄金",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "605020",
+   "name": "永和股份",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600426",
+   "name": "华鲁恒升",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "000301",
+   "name": "东方盛虹",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600801",
+   "name": "华新水泥",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "603799",
+   "name": "华友钴业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "601225",
+   "name": "陕西煤业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "002407",
+   "name": "多氟多",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600549",
+   "name": "厦门钨业",
+   "chain": "新材料",
+   "subcategory": ""
+  },
+  {
+   "code": "600176",
+   "name": "中国巨石",
+   "chain": "新材料",
+   "subcategory": ""
+  }
+ ],
+ "fundamental_codes": [
+  "301269",
+  "688521",
+  "300666",
+  "688126",
+  "002371",
+  "688012",
+  "600584",
+  "688981",
+  "300782",
+  "603236",
+  "603259",
+  "300347",
+  "002821",
+  "600276",
+  "688235",
+  "601607",
+  "603368",
+  "300759",
+  "300363",
+  "603456",
+  "002747",
+  "003021",
+  "300403",
+  "603662",
+  "300007",
+  "002048",
+  "603667",
+  "603728",
+  "002527",
+  "603009",
+  "601600",
+  "000807",
+  "601899",
+  "600141",
+  "600309",
+  "600938",
+  "600362",
+  "002460",
+  "600547",
+  "000630"
+ ],
+ "member_bks": [
+  {
+   "bk_code": "BK1036",
+   "name": "半导体"
+  },
+  {
+   "bk_code": "BK1326",
+   "name": "半导体设备"
+  },
+  {
+   "bk_code": "BK1044",
+   "name": "生物制品"
+  },
+  {
+   "bk_code": "BK0465",
+   "name": "化学制药"
+  },
+  {
+   "bk_code": "BK1408",
+   "name": "机器人"
+  },
+  {
+   "bk_code": "BK1033",
+   "name": "电池"
+  },
+  {
+   "bk_code": "BK1600",
+   "name": "医疗研发外包"
+  },
+  {
+   "bk_code": "BK1254",
+   "name": "动物保健"
+  }
+ ]
+}

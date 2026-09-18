@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# 敏感凭据：东财 cookie，绝不入库
+config/em_cookie.txt
+
+# 个人持仓与资金：只保留脱敏示例
+config/positions.json
+
+# 运行产物：历史库、快照、缓存（样例库例外，见 data/README.md）
+data/market_history.db
+data/*.csv
+data/cache/
+data/kline_10y/
+data/kline_full/
+data/kline_etf/
+data/kline_3y/
+data/valuation_history.csv
+reports/投资看板.html
+
+# 系统杂项
+Thumbs.db
+desktop.ini
+*.tmp
+.tmp/
